@@ -1,0 +1,27 @@
+*{box-sizing:border-box;margin:0;padding:0;}
+html{width:100%;height:100vh;}
+.container{
+height:300px;width:100%;text-align:center;
+
+}
+form{
+display:flex;height:200px;width:80%;margin:auto;justify-content:space-around;flex-wrap:wrap;
+}
+#search{width:60%;height:70px;margin-top:30px;outline:!important none;border-collapse:collapse;}
+form .location_Box {
+margin-top:30px;
+width:20%;height:50px;background-color:#404a3d;
+}
+form .location_Box .value,.input-group,select{width:100%;height:50px;margin:10px;border-collapse:collapse; outline: !important none;}
+#searchBtn{width:25%;height:60px;margin:25px;border-collapse:collapse;outline:!important none;}
+#backendDisplayFlex{width:100%;height:auto;margin:auto;display:flex;flex-wrap:wrap;
+}
+#backendDisplayFlex #productImgContainer{
+width:100%;height:auto;margin:20px;
+display:flex;flex-wrap:wrap;background-color:red;
+}
+#backendDisplayFlex #productImgContainer>div{
+width:24%;height:70%;margin:auto;
+}
+#backendDisplayFlex #productImgContainer>div a {height:100%;width:100%;}
+#backendDisplayFlex #productImgContainer>div a img{width:100%;height:100%;}

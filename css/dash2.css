@@ -1,0 +1,19 @@
+/* ......my styling.......... */
+/* #productHr{width:90%;margin:auto;height:auto;background-color:red;} */
+#productsContainer{
+width:90%;height:auto;margin:auto;
+background-color:red;
+display:flex;flex-wrap:wrap;
+}
+#productsContainer >div{width:32%;height:260px;margin:6px;}
+#productsContainer >div img{
+width:100%;height:100%;
+}
+/* .w3-main{background-color:red;border:2px solid red;} */
+
+#esesence{text-align:center;width:90%;height:auto;margin:auto;font-size:30px}
+/* .w3-light-grey{background-color:red;} */
+footer{
+height:auto;
+
+}

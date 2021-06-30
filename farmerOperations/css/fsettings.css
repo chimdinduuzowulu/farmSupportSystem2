@@ -1,0 +1,125 @@
+*{
+box-sizing:border-box;
+margin:0;padding:0;
+}
+html{
+box-sizing:border-box;
+width:100%;height:100vh;
+}
+.bodyContainer{
+width:100%;height:auto;
+background-color:#f0f3fb;
+color:#555555;
+FONT-FAMILY:Roboto, sans-serif;
+FONT-SIZE:15px;
+LINE-HEIGHT:22.5px;
+TEXT-ALIGN:left;
+LETTER-SPACING:normal;
+}
+#pageDescription{width:90%;height:70px;font-size:33px;font-weight:bold;margin:auto}
+#pageDescription >h2{font-size:33px;font-weight:bold;color:#212529;text-align:center;margin:auto;padding:20px;} 
+.bodyContainer .flexDiv{
+width:95%;height:auto;margin:auto;display:flex;flex-wrap:wrap;padding-bottom:30px;padding-top:30px;
+}
+.bodyContainer .flexDiv >div{
+width:80%;height:auto;margin:auto;margin-bottom:12px;
+
+}
+#twoflex{
+width:65%;height:700px;
+}
+/* second flex box in flexdiv container */
+#twoflex{
+background-color:#ffffff;
+FONT-FAMILY:Roboto, sans-serif;
+FONT-SIZE:14px;
+LINE-HEIGHT:21px;
+TEXT-ALIGN:left;
+LETTER-SPACING:normal;
+BOX-SHADOW:rgb(218, 222, 232) -8px 12px 18px 0px;
+BORDER-RADIUS:10px;
+display:flex;flex-wrap:wrap;color:#555555;height:100%;
+}
+#twoflex > div{
+width:100%;
+height:10%;
+margin:auto;
+}
+#twoflex #twoflex1,#twoflex #twoflex2,#twoflex #twoflex4{
+height:6%;color:#555555;
+FONT-FAMILY:Roboto, "Helvetica Neue", sans-serif;
+FONT-SIZE:14px;
+LINE-HEIGHT:30px;
+TEXT-ALIGN:start;padding-left:18px;
+LETTER-SPACING:normal;
+}
+#twoflex #twoflex1 h1{width:100%;height:2px;background-color:grey;}
+#twoflex #twoflex1 h1 p{width:20%;height:2px;background-color:blue;}
+
+#twoflex #twoflex1 p,#twoflex #twoflex2 p,#twoflex #twoflex4 p{
+font-weight:bolder;
+
+}
+#twoflex #twoflex3{
+display:flex;flex-wrap:wrap;height:14%;
+}
+#twoflex #twoflex3>div{
+width:30%;margin:auto;height:90%;FONT-SIZE:14px;
+LINE-HEIGHT:29px;padding:18px;
+text-align:
+}
+#twoflex #twoflex3 > div h3{
+font-weight:bolder;
+}
+#twoflex #twoflex4{width:90%;margin:auto;margin-bottom:1px;font-weight:bolder;margin}
+#twoflex #twoflex4{font-weight:bolder;font-size:23px}
+#twoflex #twoflex5{
+height:60%;margin-top:0;
+}
+#twoflex5 div#securitySettings{
+width:90%;height:auto;margin:auto;
+color:#555555;background-color:#ffffff;
+}
+#twoflex5 div#securitySettings form {height:auto;width:90%;margin:auto;}
+#twoflex5 div#securitySettings form input{width:99%;height:40px;margin:auto;border-collapse:collapse;outline:!important none;color:#555555;
+BACKGROUND:#000000, opacity 4.00%;BOX-SHADOW:none;BORDER-RADIUS:4px 4px 0px 0px;border:none;border-bottom:1px solid black;
+}
+#twoflex5 div#securitySettings #Save{
+width:20%;height:auto;padding:12px;text-align:center;
+background-color:#3f51b5;color:#ffffff;
+BOX-SHADOW:rgba(0, 0, 0, 0.2) 0px 3px 1px -2px, rgba(0, 0, 0, 0.14) 0px 2px 2px 0px, rgba(0, 0, 0, 0.12) 0px 1px 5px 0px;
+BORDER-RADIUS:4px;margin-top:4px;outline:!important none;border-collapse:collapse;border:none;
+}
+#twoflex5 #securitySettings2{line-height:12px;
+width:90%;height:auto;margin:auto;
+color:#555555;background-color:#ffffff;margin-top:23px;
+}
+#twoflex5 #securitySettings2 form{
+display:flex;flex-wrap:wrap;width:90%;height:auto;margin:auto;
+}
+#twoflex5 #securitySettings2 form >label{
+width:45%;height:40px;margin:auto;outline:!important none;color:#5b626b;margin-top:20px;margin-bottom:20px;
+}
+#twoflex5 #securitySettings2 form >label input{width:100%;height:40px;margin-bottom:2px;margin-top:1px;}
+#twoflex5 div#securitySettings2 h3#ACs{font-weight:bolder;color:#5b626b;}
+#twoflex5 #securitySettings2 form >label#emailMove{
+width:93%;height:40px;margin:auto;
+}
+#twoflex5 #securitySettings2 form >label#emailMove input{width:100%;height:40px;}
+#twoflex5 #securitySettings2 form >label#submitLabel{width:20%;height:40px;margin:3px;margin-top:21px;margin-left:12px;display:flex;flex-wrap:wrap;justify-content: flex-start;outline:!important none;border-collapse:collapse;border:none;}
+#twoflex5 #securitySettings2 label input#Save2{
+outline:!important none;border-collapse:collapse;border:none;
+width:100%;height:40px;padding:12px;text-align:center;
+background-color:#3f51b5;color:#ffffff;margin:auto;
+BOX-SHADOW:rgba(0, 0, 0, 0.2) 0px 3px 1px -2px, rgba(0, 0, 0, 0.14) 0px 2px 2px 0px, rgba(0, 0, 0, 0.12) 0px 1px 5px 0px;
+BORDER-RADIUS:4px;margin-left:1px;
+}
+#twoflex5 #securitySettings2 h3#ACs{
+width:90%;height:auto;margin:auto;margin-bottom:6px;margin-top:8px;font-weight:bolder;font-size:23px;color:black;opacity:100;FONT-FAMILY:Roboto, "Helvetica Neue", sans-serif;
+}
+#Save2:hover , #Save:hover{cursor:pointer;}
+
+#uploadImage{
+background-color:#3f51b5;border-radius:4px;padding:8px;margin:12px;color:white;width:13%;height:50px;border-collapse:collapse;border:none;outline:!important none;
+
+}

@@ -1,0 +1,28 @@
+#wholeContainer{background-image:url(../../images/adminSidebar.jpeg);
+background-repeat:no-repeat;
+background-position:center;
+background-attachment:cover;scroll-behavior: smooth;
+}
+
+nav#mySidebar{
+background-color:#0b1315;color:#c9ab81;scroll-behavior: smooth;
+
+}
+.w3-container h5{color:white;text-align:start;font-size:23px;scroll-behavior: smooth;}
+#tableCon table{color:white;scroll-behavior: smooth;}
+footer{
+background-color:#0b1315;color:#c9ab81;
+
+}
+#tableCon #queryShow form{
+/* background-color:red; */
+height:auto;padding:30px;margin:10px;text-align:center;display:flex;flex-wrap:wrap;flex:start;padding-left:1px;margin-left:0;
+}
+#tableCon #queryShow >form select,input{width:30%;height:50px;margin:8px;
+border:none;outline:!important none;border:2px solid #c9ab81;border-radius:6px;background-color:#ffff;opacity:50%;
+
+}
+#btnPrimary{width:13%;}
+#tableAjax{
+height:auto;
+}

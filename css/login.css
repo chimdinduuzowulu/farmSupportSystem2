@@ -1,0 +1,10 @@
+.container-login100{background-image:url(../images/bg-01.jpeg)}
+.login100-form-title{font-size:18px;}
+.text-center{padding-top:20px;}
+#states{
+height:50px;
+width:97%;border-collapse:collapse;outline: none !important;border:none;
+}
+.wrap-login100{
+background-color:red;
+}

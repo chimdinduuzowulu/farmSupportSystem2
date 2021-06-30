@@ -1,0 +1,83 @@
+
+/* ......................contact image styling............ */
+.contactimage{
+background-image: url(../../images/signup.jpeg);
+background-repeat: no-repeat;background-size:cover;background-attachment:fixed;
+text-align: center;
+height: 480px;
+transition: 10s ease;
+position: relative;
+transition:contactanimate ease-in-out 0s;
+}
+@keyframes contactanimate{
+0%{opacity: 1;}
+50%{opacity: 1;}
+100%{opacity: 1;}
+}
+.contactimage h2{
+width: 100%;
+height: inherit;
+margin-top: 0px;
+color: #c9ab81;;
+position: absolute;
+padding-top: 13%;
+transition: 10s ease;
+/* background-color: rgba(11, 19, 21,0.467); */
+}
+/* ..........................contact form styling................... */
+.contactForm {
+width: 100%;
+height: auto;
+/* background-color: #0b1315; */
+margin-bottom: 4px;
+border-bottom: 1px dashed black;
+border-right: 1px dashed black;
+border-left: 1px dashed black;
+margin: auto;
+overflow: hidden;
+color: #c9ab81;
+}
+input:focus, textarea {
+    outline: none !important;
+}
+.contactForm .contactmessage{width: 100%;
+height: auto;
+text-align: center;color:#c9ab81; margin: auto;font-style: normal;
+}
+.contactForm .contactmessage p.line{font-size: 18px;color: #c9ab81;}
+.contactmessage h2{line-height: 37px;font-family: Cinzel; font-size: 32px;}
+.contactForm form{
+display: flex;flex-wrap: wrap;width: 98%;margin: auto;height: 400px;
+}
+.contactForm form >input{
+width: 30%;
+height: 50px;
+margin: auto;
+line-height: 10px;
+border-collapse: collapse;
+border: 1px solid white;
+text-align: center;
+border-radius: 3px;
+}
+#message{
+width: inherit;height: 130px;
+margin: auto;
+margin-top: -9px;
+border-collapse: collapse;
+border: 1px solid rgba(48, 46, 46, 0.183);
+text-align: center;
+padding-top: 5%;
+}
+form{height: inherit;}
+#message:focus{
+border-collapse: collapse;
+border: 1px solid rgba(48, 46, 46, 0.183);
+}
+#submit{
+background-color: black;color: white;
+transition: 3s ease;border: 1px solid black;
+}
+#submit:hover{
+background-color:rgb(221, 180, 46) ;color: white;
+}
+label{width: auto;height: 20px;margin-bottom: 0px;transform: translateX(50px);}

@@ -1,0 +1,35 @@
+*{box-sizing:border-box;margin:0;padding:0;}
+html{width:100%;height:100vh;}
+.container{
+height:300px;width:100%;text-align:center;
+
+}
+form{
+display:flex;height:200px;width:80%;margin:auto;justify-content:space-around;flex-wrap:wrap;
+}
+#search{width:60%;height:70px;margin-top:30px;outline:!important none;border-collapse:collapse;}
+form .location_Box {
+margin-top:30px;
+width:20%;height:50px;
+}
+form .location_Box .value,.input-group,select{width:100%;height:50px;margin:10px;border-collapse:collapse; outline: !important none;}
+#searchBtn{width:25%;height:60px;margin:25px;border-collapse:collapse;outline:!important none;}
+#backendDisplayFlex{width:99%;height:auto;margin:auto;display:flex;flex-wrap:wrap;background-color:#ffffff;
+}
+#backendDisplayFlex #productImgContainer{
+/* background-color:red; */
+width:24%;height:270px;margin:20px;
+display:flex;flex-wrap:wrap;
+}
+#backendDisplayFlex #productImgContainer>div{
+width:100%;height:70%;margin:auto;
+
+}
+#backendDisplayFlex #productImgContainer>div img{width:100%;height:100%;}
+#backendDisplayFlex #productImgContainer #productNameAndDescription{height:20%;color:white;}
+#productimgDivs{width:70%;border:4px solid white;}
+#backendDisplayFlex #productImgContainer #productNameAndDescription{
+width:98%;height:24%;margin:auto;text-align:center;color:white;
+
+}
+#backendDisplayFlex #productImgContainer #productNameAndDescription #cardTtile{text-align:center;color:black;}

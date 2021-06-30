@@ -1,0 +1,67 @@
+*{box-sizing:border-box;margin:0;padding:0;}
+html,body{width:100%;height:100vh;background-color:#eff2f5;}
+.container{
+min-width:100%;height:auto;text-align:center;background-color: #0b1315;color:#c9ab81;font-size:19px;line-height:24px;LETTER-SPACING:normal;margin:auto;
+
+}
+form{
+display:flex;height:auto;width:100%;justify-content:space-around;flex-wrap:wrap;font-size:21px;LETTER-spacing:normal;FONT-FAMILY:Heebo, sans-serif;
+FONT-SIZE:15px;
+LINE-HEIGHT:30px;
+TEXT-ALIGN:left;
+LETTER-SPACING:normal;
+background-color:red;
+}
+#search{width:55%;height:70px;margin-top:30px;margin:auto;outline:!important none;border-collapse:collapse;border:1px solid black;border-radius:5px}
+form .location_Box {
+/* margin-top:30px; */
+width:20%;height:50px;
+}
+form .location_Box .value,.input-group,select{width:100%;height:50px;margin:10px;border-collapse:collapse; outline: !important none;border-radius:5px;}
+#searchBtn{width:25%;height:60px;margin:25px;border-collapse:collapse;outline:!important none;}
+#backendDisplayFlex{width:99%;height:auto;margin:auto;display:flex;flex-wrap:wrap;background-color:#eff2f5;margin-bottom:25px;margin-top:25px;
+}
+#backendDisplayFlex >div{
+width:23%;height:400px;margin:auto;
+FONT-FAMILY:Heebo, sans-serif;
+FONT-SIZE:15px;
+LINE-HEIGHT:30px;
+TEXT-ALIGN:left;
+LETTER-SPACING:normal;color:#666666;
+border-radius:12px;
+}
+#backendDisplayFlex >div div.card{
+width:100%;height:100%;
+}
+#backendDisplayFlex >div > div.card a{BOX-SHADOW:none;
+BORDER-RADIUS:0px 0px 5px 5px;width:100%;height:60%;}
+#backendDisplayFlex >div > div.card a img{width:100%;height:100%;}
+ #backendDisplayFlex >div > div a img{BORDER-RADIUS:0px 0px 5px 5px;}
+h5#h5Color{color:#232323;}
+
+footer{
+width:100%;height:599px;FONT-FAMILY:Heebo, sans-serif;
+FONT-SIZE:15px;
+LINE-HEIGHT:30px;
+TEXT-ALIGN:left;
+LETTER-SPACING:normal;
+background-color: #0b1315;color:#c9ab81;
+
+}
+footer form{height:400px;width:70%;margin:auto;padding-top:140px;}
+footer form label{width:60%;}
+footer form label textarea{width:90%;margin:auto;height:70px;line-height:49px;font-size:18px;border:none;outline:!important none;border:1px solid #c9ab81;border-radius:4px;color:black }
+footer form input{
+width:45%;height:50px;border:none;outline:!important none;margin:20px;background-color: #0b1315;color:#c9ab81;border-radius:3px;font-size:18px;border:1px solid white;
+}
+/* footer form label{width:100%;height:100%;}
+footer form label .form-floating{width:100%;height:100%;}
+footer form label .form-floating textarea{width:100%;height:100%;}
+.backendDisplayFlex .card-group {
+margin-top:12px;margin-bottom:132px;border-radius:100px;color:red;
+} */
+ small#likeordislike a{
+color:#c9ab81;
+margin:5px;padding:5px;
+
+}

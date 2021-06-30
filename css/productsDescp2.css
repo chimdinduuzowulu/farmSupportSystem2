@@ -1,0 +1,136 @@
+*{box-sizing:border-box;
+margin:0;padding:0;
+}
+html{
+box-sizing:border-box;
+width:100%;height:100vh;
+}
+.bodyContainer{
+width:100%;height:auto;
+background-color:#0b1315;;
+color:#555555;
+FONT-FAMILY:Roboto, sans-serif;
+FONT-SIZE:15px;
+LINE-HEIGHT:22.5px;
+TEXT-ALIGN:left;
+LETTER-SPACING:normal;
+
+}
+#pageDescription{width:90%;height:70px;font-size:33px;font-weight:bold;margin:auto}
+#pageDescription >h2{font-size:33px;font-weight:bold;color:#212529;text-align:center;margin:auto;padding:20px;} 
+.bodyContainer .flexDiv{
+width:100%;height:960px;margin:auto;display:flex;flex-wrap:wrap;padding-bottom:30px;padding-top:30px;
+}
+.bodyContainer .flexDiv >div{
+width:40%;height:45%;margin:auto;
+
+}
+#oneflex{
+width:40%;height:100%; display:flex;flex-wrap:wrap;
+
+}
+#twoflex{
+width:55%;height:700px;
+}
+#oneflex >div{
+width:60%;height:56%;
+margin:auto; display:flex;flex-wrap:wrap;text-align:center;
+FONT-FAMILY:Roboto, sans-serif;
+FONT-SIZE:14px;
+LINE-HEIGHT:21px;
+TEXT-ALIGN:center;
+LETTER-SPACING:normal;margin:auto;
+}
+#oneflex #boxflex1{
+width:81%;
+height:60%;
+display:flex;flex-wrap:wrap;
+margin:auto;
+BOX-SHADOW:rgb(8, 6, 3) -1px 1px 1px 0px;
+BORDER-RADIUS:7px;
+}
+#oneflex #boxflex1 >div{
+width:100%;height:50%;
+margin:auto;FONT-FAMILY:Roboto, sans-serif;
+FONT-SIZE:14px;
+LINE-HEIGHT:21px;
+TEXT-ALIGN:center;
+LETTER-SPACING:normal;
+}
+
+#oneflex #boxflex1 #boxflex12{
+height:35%;color:#ffffff;
+background-color:#343a40;
+}
+#oneflex #boxflex1 #boxflex13{
+height:65%;background-color:#ffffff;color:#212529;
+BORDER-bottom-RIGHT-RADIUS:10px;BORDER-bottom-LEFT-RADIUS:10px;
+}
+#oneflex #boxflex2{
+width:81%;
+height:40%;
+margin:auto;background-color:#ffffff;text-align:start;
+
+BORDER-RADIUS:10px;
+FONT-FAMILY:Roboto, sans-serif;
+FONT-SIZE:14px;
+LINE-HEIGHT:21px;
+TEXT-ALIGN:center;
+LETTER-SPACING:normal;color:#212529;margin-top:20px;
+}
+#aboutStyle{width:100%;height:auto;text-align:center;margin-bottom:1px;padding-top:25px;}
+#oneflex #boxflex2  #loremWrite{
+width:48%;text-align:center;padding:12px;overflow:hidden;
+height:44px;
+FONT-FAMILY:Roboto, "Helvetica Neue", sans-serif;
+FONT-SIZE:19px;
+LINE-HEIGHT:21px;
+TEXT-ALIGN:left;
+LETTER-SPACING:normal;margin:auto;margin-top:0px;
+}
+#oneflex #boxflex2 #farmermWrite{
+width:70%;text-align:center;padding:12px;overflow:hidden;
+height:50%;
+FONT-FAMILY:Roboto, "Helvetica Neue", sans-serif;
+FONT-SIZE:14px;
+LINE-HEIGHT:21px;
+TEXT-ALIGN:center;margin:auto;
+LETTER-SPACING:normal;margin:auto;margin-bottom:12px;
+}
+#oneflex #boxflex2 #farmermWrite2{
+width:90%;text-align:center;padding:12px;overflow:hidden;
+height:30%;
+FONT-FAMILY:Roboto, "Helvetica Neue", sans-serif;
+FONT-SIZE:14px;
+LINE-HEIGHT:21px;
+TEXT-ALIGN:center;
+LETTER-SPACING:normal;margin:auto;margin:auto;
+}
+/* second flex box in flexdiv container */
+#twoflex{
+FONT-FAMILY:Roboto, sans-serif;
+FONT-SIZE:14px;
+LINE-HEIGHT:21px;
+TEXT-ALIGN:left;
+LETTER-SPACING:normal;
+/* BOX-SHADOW:rgb(2, 2, 2) -2px 2px 1px 0px; */
+BORDER-RADIUS:5px;
+height:auto;width:55%;
+}
+/* #twoflex > #carouselExampleFade .carousel-inner  .carousel-item >img{width:100%;height:100%;BORDER-RADIUS:10px;BOX-SHADOW:rgb(218, 222, 232) -8px 12px 18px 0px;} */
+#backToDashboard{color:white;}
+#twoflex >div{width:100%;height:600px;margin:auto;margin-bottom:21px;margin-top:21px;overflow:auto;}
+#twoflex >div img{width:100%;height:100%;
+  border: none;
+  text-align: center;
+  font-size: 16px;
+  opacity: 0.73;
+  transition: 0.3s linear;
+  transition-delay: 0.001s;
+}
+#twoflex >div a img:hover{
+transform:translateY(3px);
+opacity: 1;transform:scale(1.2,1.2);
+
+}
+i{color:#c9ab81;}

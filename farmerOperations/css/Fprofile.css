@@ -1,0 +1,181 @@
+*{
+box-sizing:border-box;
+margin:0;padding:0;
+}
+html{
+box-sizing:border-box;
+width:100%;height:100vh;
+}
+.bodyContainer{
+width:100%;height:auto;
+background-color:#f0f3fb;
+color:#555555;
+FONT-FAMILY:Roboto, sans-serif;
+FONT-SIZE:15px;
+LINE-HEIGHT:22.5px;
+TEXT-ALIGN:left;
+LETTER-SPACING:normal;
+}
+#pageDescription{width:90%;height:70px;font-size:33px;font-weight:bold;margin:auto}
+#pageDescription >h2{font-size:33px;font-weight:bold;color:#212529;text-align:center;margin:auto;padding:20px;} 
+.bodyContainer .flexDiv{
+width:95%;height:960px;margin:auto;display:flex;flex-wrap:wrap;background-color:#f0f3fb;padding-bottom:30px;padding-top:30px;
+}
+.bodyContainer .flexDiv >div{
+width:40%;height:45%;margin:auto;
+
+}
+#oneflex{
+width:40%;height:100%; display:flex;flex-wrap:wrap;
+
+}
+#twoflex{
+width:55%;height:700px;
+}
+#oneflex >div{
+width:60%;height:55%;
+margin:auto; display:flex;flex-wrap:wrap;text-align:center;
+FONT-FAMILY:Roboto, sans-serif;
+FONT-SIZE:14px;
+LINE-HEIGHT:21px;
+TEXT-ALIGN:center;
+LETTER-SPACING:normal;margin:auto;
+}
+#oneflex #boxflex1{
+width:81%;
+height:60%;
+display:flex;flex-wrap:wrap;
+margin:auto;
+BOX-SHADOW:rgb(218, 222, 232) -8px 12px 18px 0px;
+BORDER-RADIUS:10px;
+}
+#oneflex #boxflex1 >div{
+width:100%;height:50%;
+margin:auto;FONT-FAMILY:Roboto, sans-serif;
+FONT-SIZE:14px;
+LINE-HEIGHT:21px;
+TEXT-ALIGN:center;
+LETTER-SPACING:normal;
+}
+#oneflex #boxflex1 #boxflex12{
+height:35%;background-color:#343a40;color:#ffffff;
+}
+#oneflex #boxflex1 #boxflex13{
+height:65%;background-color:#ffffff;color:#212529;BOX-SHADOW:rgb(218, 222, 232) -8px 12px 18px 0px;
+BORDER-bottom-RIGHT-RADIUS:10px;BORDER-bottom-LEFT-RADIUS:10px;
+}
+#oneflex #boxflex2{
+width:81%;
+height:36%;
+margin:auto;background-color:#ffffff;text-align:start;
+BOX-SHADOW:rgb(218, 222, 232) -8px 12px 18px 0px;
+BORDER-RADIUS:10px;
+FONT-FAMILY:Roboto, sans-serif;
+FONT-SIZE:14px;
+LINE-HEIGHT:21px;
+TEXT-ALIGN:left;
+LETTER-SPACING:normal;color:#212529;
+}
+#aboutStyle{width:100%;height:auto;text-align:center;margin-bottom:20px}
+#oneflex #boxflex2  #loremWrite{
+width:100%;text-align:center;padding:12px;overflow:hidden;
+height:auto;
+FONT-FAMILY:Roboto, "Helvetica Neue", sans-serif;
+FONT-SIZE:14px;
+LINE-HEIGHT:21px;
+TEXT-ALIGN:left;
+LETTER-SPACING:normal;margin:auto;
+}
+#oneflex #boxflex2 #farmermWrite{
+width:100%;text-align:center;padding:12px;overflow:hidden;
+height:auto;
+FONT-FAMILY:Roboto, "Helvetica Neue", sans-serif;
+FONT-SIZE:14px;
+LINE-HEIGHT:21px;
+TEXT-ALIGN:left;
+LETTER-SPACING:normal;margin:auto;
+}
+/* second flex box in flexdiv container */
+#twoflex{
+background-color:#ffffff;
+FONT-FAMILY:Roboto, sans-serif;
+FONT-SIZE:14px;
+LINE-HEIGHT:21px;
+TEXT-ALIGN:left;
+LETTER-SPACING:normal;
+BOX-SHADOW:rgb(218, 222, 232) -8px 12px 18px 0px;
+BORDER-RADIUS:10px;
+display:flex;flex-wrap:wrap;color:#555555;height:100%;
+}
+#twoflex > div{
+width:100%;
+height:10%;
+margin:auto;
+}
+#twoflex #twoflex1,#twoflex #twoflex2,#twoflex #twoflex4{
+height:6%;color:#555555;
+FONT-FAMILY:Roboto, "Helvetica Neue", sans-serif;
+FONT-SIZE:14px;
+LINE-HEIGHT:30px;
+TEXT-ALIGN:start;padding-left:18px;
+LETTER-SPACING:normal;
+}
+#twoflex #twoflex1 h1{width:100%;height:2px;background-color:grey;}
+#twoflex #twoflex1 h1 p{width:20%;height:2px;background-color:blue;}
+
+#twoflex #twoflex1 p,#twoflex #twoflex2 p,#twoflex #twoflex4 p{
+font-weight:bolder;
+
+}
+#twoflex #twoflex3{
+display:flex;flex-wrap:wrap;height:14%;
+}
+#twoflex #twoflex3>div{
+width:30%;margin:auto;height:90%;FONT-SIZE:14px;
+LINE-HEIGHT:29px;padding:18px;
+text-align:
+}
+#twoflex #twoflex3 > div h3{
+font-weight:bolder;
+}
+#twoflex #twoflex4{margin-bottom:1px;}
+#twoflex #twoflex5{
+height:60%;margin-top:0;
+}
+#twoflex5 div#securitySettings{
+width:90%;height:auto;margin:auto;
+color:#555555;background-color:#ffffff;
+}
+#twoflex5 div#securitySettings input{width:99%;height:40px;margin:auto;border-collapse:collapse;outline:!important none;color:#555555;
+BACKGROUND:#000000, opacity 4.00%;BOX-SHADOW:none;BORDER-RADIUS:4px 4px 0px 0px;border:none;border-bottom:1px solid black;
+}
+#twoflex5 div#securitySettings #Save{
+width:20%;height:auto;padding:12px;text-align:center;
+background-color:#3f51b5;color:#ffffff;
+BOX-SHADOW:rgba(0, 0, 0, 0.2) 0px 3px 1px -2px, rgba(0, 0, 0, 0.14) 0px 2px 2px 0px, rgba(0, 0, 0, 0.12) 0px 1px 5px 0px;
+BORDER-RADIUS:4px;margin-top:4px;
+}
+#twoflex5 #securitySettings2{line-height:12px;
+width:90%;height:auto;margin:auto;
+color:#555555;background-color:#ffffff;margin-top:18px;
+}
+#twoflex5 #securitySettings2 form{
+display:flex;flex-wrap:wrap;width:90%;height:250px;
+}
+#twoflex5 #securitySettings2 form >label{
+width:45%;height:40px;margin:auto;outline:!important none;margin-bottom:2px;color:#5b626b;margin-top:1px;
+}
+#twoflex5 #securitySettings2 form >label input{width:100%;height:40px;margin-bottom:2px;margin-top:1px;}
+#twoflex5 div#securitySettings2 h3#ACs{font-weight:bolder;color:#5b626b;}
+#twoflex5 #securitySettings2 form >label#emailMove{
+width:90%;height:40px;margin:auto;
+}
+#twoflex5 #securitySettings2 form >label#emailMove input{width:100%;height:40px;}
+#twoflex5 #securitySettings2 form >label#submitLabel{width:50%;height:40px;}
+#twoflex5 #securitySettings2 label input#Save2{
+width:50%;height:40px;padding:12px;text-align:center;
+background-color:#3f51b5;color:#ffffff;
+BOX-SHADOW:rgba(0, 0, 0, 0.2) 0px 3px 1px -2px, rgba(0, 0, 0, 0.14) 0px 2px 2px 0px, rgba(0, 0, 0, 0.12) 0px 1px 5px 0px;
+BORDER-RADIUS:4px;margin-left:1px;
+float:left;
+}
